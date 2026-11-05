@@ -2,6 +2,69 @@ body
 {
 background-color: navy;
 color: lightcyan;
+font: 400;
+font-family: 'Times New Roman', Times, serif;
+margin-left: 5%;
+margin-right: 5%;
+}
 
+img
+{
+    max-width: 300px;
+}
 
-};
+.tarjeta_producto
+{
+    color: purple;
+    display:flexbox;
+    background-color: aquamarine;
+    margin:20%;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+.tarjeta_producto_carrito
+{
+    color: purple;
+    display:flexbox;
+    background-color: aquamarine;
+    margin:10%;
+    padding-left: 5%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display:flex;
+
+    img
+    {
+        max-width: 80px;
+    }
+
+    h2
+    {
+        margin-left: 5%;
+    }
+
+}
+
+.btn_compra
+{
+    background-color: limegreen;
+    margin: 30px;
+    padding: 3px;
+
+}
+
+.btn_carro
+{
+    background-color: red;
+    padding: 3px;
+    margin: 30px;
+}
+
+#lista_carrito
+{
+    list-style: none;
+    
+}
